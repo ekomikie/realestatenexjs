@@ -5,7 +5,7 @@ import { Flex, Box, Text, Icon } from '@chakra-ui/react';
 import { BsFilter } from 'react-icons/bs';
 
 import SearchFilters from '../components/SearchFilters';
-import Property from '../components/Property';
+import Property from '../components/Propertee';
 import noresult from '../assets/images/noresult.svg';
 import { baseUrl, fetchApi } from '../utils/fetchApi';
 
@@ -48,7 +48,7 @@ const Search = ({ properties }) => {
           marginBottom='5'
         >
           <Image alt='no result' src={noresult} />
-          <Text fontsize='2xl' marginTop='3'>
+          <Text fontSize='2xl' marginTop='3'>
             No Results Found
           </Text>
         </Flex>
